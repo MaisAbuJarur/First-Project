@@ -1,0 +1,24 @@
+
+h1 {
+	text-align: center;
+
+}
+
+div.left {
+	float: left;
+}
+ 
+div.right{
+	float: right;
+}
+
+#image1{
+	height: 25%
+	width: 25%;
+}
+#image2{
+	height: 25%
+	width: 25%;
+}
+
+
