@@ -1,17 +1,11 @@
 var obj1 = 
 		 {
-		cold : "humus",
-		cold1: "moutabal",
-		hot : "Lentil Soup"
+		Hummus : "with Hummus you can eat :Falafel , Medittearean Salad , Kibbeh",
+		Shawarma: "with Shawrma you can eat :Potato , Hummous, Coleslaw",
+		Grill : "with Grill you can eat :Tabouleh , Moutabel ",
+		Kibbeh:" with Kibbeh you can eat :Yagort , Salad, Lentil Soup"
 	}
-	var obj2 = 
-		 {
-		cold : "fatoush",
-		cold1: "Shawarma",
-		hot: "Frech Fries"
-	}
-
-var choices = [obj1,obj2]
+	
 
 
 function Menu (order) {
@@ -26,22 +20,20 @@ function Menu (order) {
 }
 
 
-function showText (text){
-	document.getElementById("b1").innerHTML= "Hummous;"
-}
-function hide(){
-	document.getElementById("b1").innerHTML=""
-}
+
 function change (){
-	document.getElementById("p").textContent="tabouleh"
+	document.getElementById("p").textContent=obj1.Hummus
 }
  
 function change1 (){
-	document.getElementById("p1").textContent="Moutabel"
+	document.getElementById("p").textContent=obj1.Shawarma
 }
  
 function change2 (){
-	document.getElementById("p2").textContent="Fettah"
+	document.getElementById("p").textContent=obj1.Grill
+}
+function change3 (){
+	document.getElementById("p").textContent=obj1.Kibbeh
 }
 
 

@@ -1,6 +1,7 @@
 
 h1 {
 	text-align: center;
+	color: grey;
 
 }
 
@@ -9,16 +10,25 @@ div.left {
 }
  
 div.right{
-	float: right;
+	float: ;
 }
 
-#image1{
-	height: 25%
-	width: 25%;
-}
-#image2{
-	height: 25%
-	width: 25%;
+p {
+	text-align: center;
+	font-size: 35 px;
 }
 
+#text {
+	z-index: 100;
+	position: absolute;
+	  color: white;
+	  font-size: 24px;
+	  font-weight: bold;
+	  left: 150px;
+	  top: 350px;
 
+}
+
+body{
+	background-color: #FFE4E1;
+}
